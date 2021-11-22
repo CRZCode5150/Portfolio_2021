@@ -65,13 +65,18 @@ header nav ul li a:hover {
     background-position: center;
     background-size: cover;
     background-image: url("../images/red.jpg");
-    height: 200px;
+    height: 298px;
     width: 100%;
-    margin-bottom: 25px;
-    
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heroPage h1{
+ font-size: 65px;
 }
 
-.flex-column {
+.column {
     float: left;
     width: 25%;
     font-size:40px;
@@ -79,16 +84,19 @@ header nav ul li a:hover {
     
 }
 
-.flex-column h2 {
+.column h2 {
    float: right;
    padding: 15px;;
 }
 
-.aboutMeContent{
+.aboutMeContent {
     text-align: center;
     width: 50%;
     margin: 0 auto;
     padding: 70px 0px 70px 0px;
+    margin-right: 250px;
+    
+    
 }
 
 footer{
@@ -98,4 +106,52 @@ footer{
     height:60px;   /* Height of the footer */
 }
 
+footer nav{
+    margin: 1px 5;
+}
 
+.footerContent ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 100px;
+    align-items: center;
+    list-style: none;
+
+}
+
+.footerContent ul li{
+    display: inline;
+}
+
+.footerContent ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.25vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: inherit;
+}
+
+.TheBigBox {
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+   padding-left: 50px;
+}
+
+.firstOfTwo{
+    background-color: violet;
+    background-position: center;
+
+    height: 80px;
+    width: 30%;
+   padding-left: 50px;
+   position: absolute;
+}

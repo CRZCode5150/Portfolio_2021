@@ -1,7 +1,7 @@
 # Portfolio_2021
 
+A portfolio layout of Christian Ramirez
+
 issues...
 
-*Need to add subtitle to header without it adding the space
-*need to add my work into the "work" section
-*need to have the user get to the page when they click on a option in the nav
+*Cannot seem to get the work section figured out, can't extend the page as the rest of the containers are merging with my footer. 
